@@ -1,0 +1,99 @@
+
+// [ FONTS ]
+// [ general ]
+$montserrat:            "montserrat", "Arial", sans-serif;
+$golos-regular:         "GolosRegular", "Arial", sans-serif;
+$golos-bold:            "GolosBold", "Arial", sans-serif;
+$inter:                 "inter", "Arial", sans-serif;
+$main-font-size:          16px;
+
+// [ typography ]
+$heading-font-family:   $montserrat;      //: bold, all-caps
+$base-text-font-family: $golos-regular;           //: normal
+$navbar-font-family:    $golos-regular;           //: normal
+$accent-font-family:    $golos-bold;           //: bold
+$button-font-family:    $golos-bold;           //: bold, all-caps
+$capture-font-family:   $golos-bold;           //: bold
+
+// [ COLOURS ]
+// [ main colours ]
+$primary-dark:      #4a3b3b;
+$primary:           #725a5a;
+$primary-light:     #ae8263;
+
+$secondary-dark:    #b19d8a;
+$secondary:         #d8b9a4;        // <- use this instead of #EACCBB
+$secondary-light:   #e7dcdc;
+
+$accent:            #ea690c;
+$accent-deep:       #c35e15;
+// [ greys ]
+$grey100:  #000;
+$grey80:   #393232;                 // <- use this instead of #3D4248
+$grey50:   #616161;                 // <- use this instead of #646464
+$grey30:   #f7f7f7;
+$grey00:   #fff;
+
+// [ BORDER-RADIUS ]
+$border-radius:     9px;
+
+// [ Z-INDEX ]
+$z-bottom:          10;
+$z-middle-bottom:   100;
+$z-middle:          150;
+$z-middle-top:      200;
+$z-top-10:          300;
+$z-top-20:          400;
+$z-top-30:          500;
+
+// [ BREAKPOINTS ]
+$xs-break: 375px;
+$sm-break: 576px;
+$md-break: 768px;
+$lg-break: 992px;
+$xl-break: 1200px;
+
+// > TYPOGRAPHY GUIDE <
+//
+//      see: components/_typograpy.scss
+//
+//
+// > COLOURS GUIDE <
+//
+//      1. $primary-dark
+//          usage: footer !only
+//
+//      2. $primary
+//          usage: accent text !only
+//
+//      3. $primary-light
+//          usage: capture !only
+//
+//      4. $secondary-dark
+//          usage: drafts > header > body text ("Изготовим столешницы ...") !only
+//
+//      5. $secondary
+//          usage: borders, separators, slider`s dots, slider`s controls (prev / next)
+//          NOTE: used instead of #EACCBB
+//
+//      6. $secondary-light
+//          usage: background grid (? - will it be displayed) !only
+//
+//      7. $accent
+//          usage: buttons, subheadings, background`s fluid (SVG)
+//
+//
+//      1. $grey00
+//          usage: page background
+//
+//      2. $grey50
+//          usage: cards` text, secondary text (not to be stressed) !only
+//          NOTE: used instead of #646464
+//
+//      3. $grey80
+//          usage: base text !only
+//          NOTE: used instead of #3D4248
+//
+//      4. $grey100
+//          usage: headings, navbar !only
+//
